@@ -1,6 +1,8 @@
 
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+//import myImage from '/Users/allenocvb/Desktop/CollegiateCoin/assets/images/adaptive-icon.png'
+import { View, Text, StyleSheet, Image } from 'react-native';
+
 
 const Challenges = () => {
   return (
@@ -17,6 +19,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
 });
+<img> </img>
 
 export default Challenges;
 
