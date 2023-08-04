@@ -1,14 +1,17 @@
-
 import React from 'react';
-//import myImage from '/Users/allenocvb/Desktop/CollegiateCoin/assets/images/adaptive-icon.png'
-import { View, Text, StyleSheet, Image } from 'react-native';
-
+import { View, Text, StyleSheet } from 'react-native';
+import { LinearGradient } from 'expo-linear-gradient';
 
 const Challenges = () => {
   return (
-    <View style={styles.container}>
+    <LinearGradient
+      colors={['rgb(204, 51, 36)', 'rgb(4, 76, 124)']}
+      style={styles.container}
+      start={{ x: 0, y: 0 }}
+      end={{ x: 1, y: 1 }}
+    >
       <Text>Challenges</Text>
-    </View>
+    </LinearGradient>
   );
 };
 
@@ -19,9 +22,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
 });
-<img> </img>
 
 export default Challenges;
+
 
 
 

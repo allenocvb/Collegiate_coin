@@ -9,7 +9,10 @@ const Tab = createBottomTabNavigator();
 
 const Tabs = () => {
   return (
-    <Tab.Navigator>
+    <Tab.Navigator
+      screenOptions={{
+        headerShown: false, // This will hide the header
+      }}>
       <Tab.Screen name="Challenges" component={Challenges} />
       <Tab.Screen name="Profile" component={ProfileScreen} />
       <Tab.Screen name="Leaderboard" component={Leaderboard} />
@@ -19,3 +22,4 @@ const Tabs = () => {
 };
 
 export default Tabs;
+
