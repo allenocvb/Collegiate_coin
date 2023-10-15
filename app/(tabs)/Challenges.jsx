@@ -8,6 +8,7 @@ const Challenges = () => {
   return (
     <View style={styles.container}>
       <Text>Challenges</Text>
+      <Text>New Challenge</Text>
     </View>
   );
 };
